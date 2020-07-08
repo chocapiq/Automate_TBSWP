@@ -17,7 +17,6 @@ if numPass != None:
     x += 1
 if len(password) >= 8:
     x += 1
-print(x)
 if x <= 2:
     print("Password is weak.")
 if x == 3:
